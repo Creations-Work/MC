@@ -1,6 +1,6 @@
 function sendMessage() {
 	var request = new XMLHttpRequest();
-	request.open("POST", "nil");
+	request.open("POST", null);
 
 	request.setRequestHeader('Content-type', 'application/json');
 
